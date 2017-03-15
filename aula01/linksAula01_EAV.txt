@@ -1,0 +1,40 @@
+https://processing.org/
+
+códigos que mostrei que são dos exemplos incluídos com o processing, que estão acessíveis em File->Examples
+
+topics - drawing - continuos lines & pattern
+topics - simulate - chain & springs
+topics - image processing - pixelArray
+topics - image processing - linearImage
+demos - performance - esfera
+
+https://www.openprocessing.org/sketch/391557
+http://www.continuumfashion.com/D.php
+https://www.youtube.com/watch?v=JUDYkxU6J0o
+https://vimeo.com/163153865
+
+http://www.instructables.com/id/Arduino-Line-Follower-Robot-1/
+http://www.instructables.com/id/Use-an-Accelerometer-and-Gyroscope-with-Arduino/
+http://www.instructables.com/id/coin-slot-detector/
+https://www.youtube.com/watch?v=Z86V_ICUCD4
+https://www.youtube.com/watch?v=Nqk_nWAjBus
+http://www.instructables.com/id/Twitter-Controlled-Pet-Feeder/
+https://www.youtube.com/watch?v=kfCDjwHBBuM
+http://www.instructables.com/id/Singing-plant-Make-your-plant-sing-with-Arduino-/
+https://www.arduboy.com/
+https://www.youtube.com/watch?v=JCiXV6b7N0A&list=UU4u0V-G5KTeWF5hnubp-lrA&index=9&feature=plcp
+
+http://supercollider.github.io/
+
+https://www.youtube.com/watch?v=JY8eNSu6HrU
+https://www.youtube.com/watch?v=tEzaM9_Kx0Q
+http://supercollider.github.io/community/sc140.html
+
+mais umas coisas extras que eu acabei não mostrando por falta de tempo, geralmente de projetos mais complexos, que integram mais de uma ferramenta ao mesmo tempo
+
+http://www.creativeapplications.net/processing/lazy-pen/
+http://filippovanucci.com/work/scrollables/
+http://archive.mokafolio.de/#!project=25
+http://archive.mokafolio.de/#!project=23
+http://lialessa.com/GAZE-BEYOND
+https://www.wired.com/2014/04/coversnitch-eavesdropping-lightbulb/
