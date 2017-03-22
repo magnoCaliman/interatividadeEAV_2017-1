@@ -8,7 +8,9 @@ s.quit //desliga o servidor. atalho Ctrl + . (Cmd + . para Mac)
 
 //comentários são ignorados pelo SuperCollider na hora de interpretar o código
 
-{}.play
+{
+	//aqui dentro, vai rodar
+}.play
 
 {SinOsc.ar(freq:400, mul:0.1)}.play
 
@@ -23,11 +25,11 @@ rrand(0.0, 1.0)
 
 "fora temer".speak // só funciona em Mac
 
-{WhiteNoise.ar(mul:0.1)}.play
-{BrownNoise.ar(mul:0.1)}.play
-{PinkNoise.ar(mul:0.1)}.play
+{WhiteNoise.ar(mul:0.4)}.play
+{BrownNoise.ar(mul:0.4)}.play
+{PinkNoise.ar(mul:0.4)}.play
 
-{SinOsc.ar(freq:400, mul:0.1)}.play //forma de onda senoidal
+{SinOsc.ar(freq:500, mul:0.1)}.play //forma de onda senoidal
 {Pulse.ar(freq:400, mul:0.1)}.play  //forma de onda quadrada
 {Saw.ar(freq:400, mul:0.1)}.play    //I wanna play a game...
 {LFTri.ar(freq:400, mul:0.1)}.play  //forma de onda triangular
