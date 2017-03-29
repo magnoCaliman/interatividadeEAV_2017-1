@@ -13,6 +13,8 @@ line();
 rect();
 ellipse();
 
+random();
+
 void setup()
 {
 }
@@ -21,11 +23,23 @@ void draw()
 {
 }
 
+rectMode(CENTER);
+println();
+
 mouseX
 mouseY
-random();
+
+noLoop();
+
+strokeWeight();
+noStroke();
+
+frameRate();
 
 width
 height
 
-rectMode(CENTER);
+pmouseX
+pmouseY
+
+strokeCap(SQUARE);
