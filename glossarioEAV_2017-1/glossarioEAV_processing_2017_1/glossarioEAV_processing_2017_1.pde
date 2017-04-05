@@ -43,3 +43,7 @@ pmouseX
 pmouseY
 
 strokeCap(SQUARE);
+
+int
+float
+% // https://processing.org/reference/modulo.html

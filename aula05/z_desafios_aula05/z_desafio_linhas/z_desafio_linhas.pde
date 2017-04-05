@@ -1,6 +1,6 @@
 int posicaoX = 0;
 int posicaoY = 0;
-int offset = 1;
+int step = 1;
 
 void setup()
 {
@@ -18,6 +18,6 @@ void draw()
   line(posicaoX, 0, posicaoX, height); //linha vertical
   line(0, posicaoY, width, posicaoY);  //linha horizontal
   
-  posicaoX = posicaoX + offset;
-  posicaoY = posicaoY + offset; 
+  posicaoX = posicaoX + step;
+  posicaoY = posicaoY + step; 
 }

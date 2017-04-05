@@ -1,3 +1,4 @@
 *.key
 /textosEAV_2017-1
 #/z_*
+.DS_Store
