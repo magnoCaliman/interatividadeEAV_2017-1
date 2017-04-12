@@ -47,3 +47,9 @@ strokeCap(SQUARE);
 int
 float
 % // https://processing.org/reference/modulo.html
+
+if(){}
+else{}
+
+translate()
+constrain()
