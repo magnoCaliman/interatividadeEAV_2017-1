@@ -6,17 +6,17 @@ void setup()
   pinMode(pinoBotao, INPUT);
 }
 
-
-void loop() //maneira mais simples, porém menos flexível
-{
-  Serial.println(digitalRead(pinoBotao));
-}
-
-
 //
-//void loop() //maneira "menos simples", porém mais flexível
+//void loop() //maneira mais simples, porém menos flexível
 //{
-//  int estadoDoBotao = digitalRead(pinoBotao);
-//  Serial.println(estadoDoBotao);
+//  Serial.println(digitalRead(pinoBotao));
 //}
+
+
+
+void loop() //maneira "menos simples", porém mais flexível
+{
+  int estadoDoBotao = digitalRead(pinoBotao);
+  Serial.println(estadoDoBotao);
+}
 
