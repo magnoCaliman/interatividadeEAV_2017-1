@@ -12,7 +12,7 @@ void setup()
 void loop()
 {
   leituraSensor = analogRead(pinoSensor);
-  leituraSensor = map(leituraSensor, 0, 1023, 30, 500);
+  leituraSensor = map(leituraSensor, 0, 1023, 1, 500);
 
   digitalWrite(pinoLed, HIGH);
   delay(leituraSensor);

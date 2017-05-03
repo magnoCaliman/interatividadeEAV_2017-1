@@ -24,3 +24,4 @@ if()
 {}
 
 bool
+! //https://www.arduino.cc/en/Reference/Boolean

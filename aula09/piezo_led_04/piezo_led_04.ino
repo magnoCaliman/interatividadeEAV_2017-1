@@ -1,6 +1,7 @@
 const int pinoPiezo = A0;
 const int pinoLed = 2;
-const int limite = 500;
+int limite = 500;
+int leituraPiezo;
 
 bool estadoLed = LOW;
 
@@ -14,15 +15,15 @@ void setup()
 }
 void loop() 
 {
-  int leituraPiezo = analogRead(pinoPiezo);
+  leituraPiezo = analogRead(pinoPiezo);
 
   if(leituraPiezo >= limite)
   {
-    estadoLed = !estadoLed;
+    estadoLed = !estadoLed;  //se verdadeiro, torne falso. e vice-versa.
     digitalWrite(pinoLed, estadoLed); 
   }
   
-  Serial.println(leituraPiezo);
-  delay(50); //debouncing
+  Serial.println(leituraPiezo);  //como o piezo se comporta eletricamente?
+  delay(50);
 
 }
