@@ -14,7 +14,7 @@ void draw()
 {
   while (i < 50)
   {
-    fill(random(255), 128);
+    fill(random(255), 0, 0, 128);
     ellipse(random(width), random(height), 30, 30);
     i++;
     
