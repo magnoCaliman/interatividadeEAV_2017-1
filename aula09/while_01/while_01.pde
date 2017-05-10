@@ -6,7 +6,7 @@ void setup()
   background(255);
   rectMode(CENTER);
   
-  frameRate(10); // aparecem todos ao mesmo tempo...
+  frameRate(1); // aparecem todos ao mesmo tempo...
 }
 
 void draw()
@@ -17,7 +17,7 @@ void draw()
   //tudo dentro das chaves é avaliado EM LOOP
   while (i <= width) 
   {                  
-    rect(i, height/2, tamanhoRect, tamanhoRect);
+    ellipse(i, height/2, tamanhoRect, tamanhoRect);
     i = i + 20;  // qual a função dessa linha?
                  // o que acontece se for comentada?
   }
