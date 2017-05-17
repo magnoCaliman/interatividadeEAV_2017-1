@@ -44,7 +44,7 @@ Synth("bubble", [freq:200, mod:rrand(10, 200)])
 
 (
 SynthDef("gongo", {
-	arg freq = 200, mod = 20, modrate = 1000, atq = 0.01, rls =2;
+	arg freq = 200, mod = 20, modrate = 1000, atq = 0.01, rls = 2;
 	var synth, envelope;
 
 	synth = SinOsc.ar(freq + (modrate * Saw.ar(mod)));
