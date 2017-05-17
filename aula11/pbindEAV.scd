@@ -29,6 +29,14 @@ Pbind(
 ).play
 )
 
+(
+Pbind(
+	\degree, Pseq([0, 2, 4, 6, 5, 4, 6, Rest(0.5)], 3),
+	\dur, 0.5,
+	\scale, Scale.mixolydian
+).play
+)
+
 Scale.directory //lista todas as escalas que o SC conhece (são muitas...)
 
 (
