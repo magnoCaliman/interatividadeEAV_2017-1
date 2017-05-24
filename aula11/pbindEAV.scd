@@ -1,8 +1,8 @@
-Pbind(\degree, 0).play;
+Pbind(\degree, 0, \dur, 1).play;
 
-Pbind(\degree, 0, \dur, 0.5).play;
+Pbind(\degree, 3, \dur, 0.5).play;
 
-Pbind(\degree, Pseq([0, 1, 2, 3, 4, 5, 6, 7], 1), \dur, 0.2).play;
+Pbind(\degree, Pseq([0, 1, 2, 3, 4, 5, 6, 7], 1), \dur, 0.5).play;
 
 Pbind(\degree, Pseq([0, 1, 2, 3, 4, 5, 6, 7], 2), \dur, Pseq([0.25, 0.25, 0.5, 0.5], inf)).play;
 
@@ -22,16 +22,16 @@ Pbind(
 
 (
 Pbind(
-	\degree, Pseq([0, 1, 2, 3, 4, 5, 6, 7], inf),     // \degree mapeia valores para uma escala de dó maior (as teclas brancas do piano)
+	\degree, Pseq([0, 1, 2, 3, 4, [0, 3, 5], 5, 6, 7], inf),     // \degree mapeia valores para uma escala de dó maior (as teclas brancas do piano)
 	// \note,   Pseq([0, 1, 2, 3, 4, 5, 6, 7], inf),  // \note mapeia para uma escala cromática (teclas brancas + teclas pretas)
 	\dur, 0.5,
-	\scale, Scale.harmonicMinor                       // a não ser que \scale selecione outra escala
+	// \scale, Scale.todi                       // a não ser que \scale selecione outra escala
 ).play
 )
 
 (
 Pbind(
-	\degree, Pseq([0, 2, 4, 6, 5, 4, 6, Rest(0.5)], 3),
+	\degree, Pseq([0, 2, 4, 6, 5, 4, 6, Rest()], 3),
 	\dur, 0.5,
 	\scale, Scale.mixolydian
 ).play
@@ -49,7 +49,7 @@ Pbind(
 //qual diferença entre Prand e Pshuf?
 (
 Pbind(
-	\note, Pshuf([0, 2, 4, 7, 9, 12, Rest(0.5)], 3),
+	\note, Pshuf([0, 1, 2, 3, 4, 5, 6, Rest(0.5)], 5),
 	\dur, 0.3
 ).trace.play
 )
